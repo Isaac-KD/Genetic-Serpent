@@ -15,7 +15,7 @@ class Snake():
     def droit(self,i):
         self.corp[i]=(self.corp[i][0]+1,self.corp[i][1])
         
-    def avance(self,i):
+    def devant(self,i):
         self.corp[i]=(self.corp[i][0],self.corp[i][1]+1)
     
     def ajoute(self,x,y):
